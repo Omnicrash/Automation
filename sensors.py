@@ -64,6 +64,8 @@ def display_value(display, value, ext):
 
 
 # Initialize displays
+# I use a green display for temperature and a blue one for humidity,
+# brightness values below are tweaked so they appear similar in intensity. Adjust according to your setup.
 tempLCD.begin()
 tempLCD.set_brightness(12)
 rhLCD.begin()
